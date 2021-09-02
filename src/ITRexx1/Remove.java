@@ -1,4 +1,4 @@
-package ITRexx;
+package ITRexx1;
 
 import java.util.Arrays;
 import java.util.List;
@@ -44,5 +44,6 @@ public class Remove {
         finalString = finalString.replace(" an ", " ");
         System.out.println("output -> " + finalString);
     }
+
 }
 
