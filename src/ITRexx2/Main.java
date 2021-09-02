@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static <MyStack> void main(String[] args) throws IOException {
+    public static <My> void main(String[] args) throws IOException {
         PrinceOfPersia princeOfPersia = new PrinceOfPersia();
         ArrayList<ArrayList<PrinceOfPersia>> MAZE = new ArrayList<ArrayList<PrinceOfPersia>>();
         Scanner in = new Scanner(System.in);

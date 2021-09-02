@@ -3,7 +3,6 @@ package ITRexx2;
 public class PrinceOfPersia<E> {
     private int xCoord;
     private int yCoord;
-    private char val;
     private boolean H;
     private boolean M;
     private boolean N;
@@ -12,7 +11,6 @@ public class PrinceOfPersia<E> {
     {
         xCoord =0;
         yCoord =0;
-        val =' ';
         H = true;
         M = true;
         N = true;
@@ -59,10 +57,6 @@ public class PrinceOfPersia<E> {
     {
         return yCoord;
     }
-    public char getVal()
-    {
-        return val;
-    }
 
     public boolean getNorth()
     {
@@ -72,7 +66,6 @@ public class PrinceOfPersia<E> {
     {
         return M;
     }
-
     public boolean getEast()
     {
         return N;
